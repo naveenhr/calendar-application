@@ -1,0 +1,17 @@
+/* calendar */
+table.calendar{ border:1px solid #999; margin:0px; padding:0px;}
+td.calendar-day	{ min-height:80px; font-size:11px; position:relative; } * html div.calendar-day { height:80px; }
+td.calendar-day:hover	{ background:#b3b3b3; }
+td.calendar-day-np	{ background:#eee; min-height:80px; } * html div.calendar-day-np { height:80px; }
+td.calendar-day-head { background:#ccc; font-weight:bold; text-align:center; width:40px; padding:3px; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number		{ background:#666666; padding:4px; color:#fff; font-weight:bold; float:right; margin:2px; width:40px; text-align:center; }
+div.current-day-number { background:red; padding:4px; color:#fff; font-weight:bold; float:right; margin:2px; width:40px; text-align:center;}
+div.upcoming-day-number		{ background:#d580ff; padding:4px; color:#fff; font-weight:bold; float:right; margin:2px; width:40px; text-align:center; }
+div.event { border-style: solid; border-color: blue; border-width: 3px;}
+/* shared */
+td.calendar-day, td.calendar-day-np { width:40px; height:40px; padding:2px; border-bottom:1px solid #999; border-right:1px solid #999; }
+/* event page*/
+.event-box{ min-width:40vh; width: 60%; margin:10px; border-style:solid; border-width:1px; border-color:black; background-color: #b3ffe6; border-radius:10px; font-family: 'Open Sans', sans-serif; display: block;}
+.pannel{ width:80%; height:auto; background-image: linear-gradient(to bottom right,#1aff1a, #bfbfbf, #944dff); margin:50px; padding:20px; border-radius:20px;}
+/* addEvents page */
+.banner{width:60vh; height:auto; margin:50px; padding:20px; background-color:#e6e6e6; border-radius:10px; }
